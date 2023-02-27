@@ -504,7 +504,7 @@ img {
 	fill: currentColor;
 }
 
-.footer-input-btn {
+.footer-form {
 	display: flex;
 }
 
@@ -664,7 +664,7 @@ img {
 }
 
 
-*      Backdrop        */
+/*      Backdrop        */
 
 .backdrop {
 	position: fixed;
@@ -685,7 +685,7 @@ img {
 	background-color: #fcfcfc;
 	border-radius: 4px;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-	padding: 24px;
+	padding: 72px 24px 24px 24px;
 	transition: transform var(--trans-dur-tf);
 	color: #000;
 }
@@ -725,7 +725,6 @@ img {
 }
 
 .modal-title {
-	margin-top: 72px;
 	margin-bottom: 16px;
 	font-weight: 500;
 	font-size: 16px;
@@ -736,6 +735,7 @@ img {
 }
 
 .modal-field {
+	position: relative;
 	margin-bottom: 4px;
 	padding-bottom: 8px;
 }
@@ -745,10 +745,6 @@ img {
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: var(--customers-main-color);
-}
-
-.input-wrap {
-	position: relative;
 }
 
 .modal-input {
@@ -773,7 +769,7 @@ img {
 .modal-icon {
 	position: absolute;
 	left: 16px;
-	top: 50%;
+	top: 43px;
 	transform: translatey(-50%);
 }
 
